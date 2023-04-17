@@ -1,3 +1,51 @@
 body {
   font-family: "Fira Code", monospace;
+  background-color: var(--background-color);
+  margin: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.highlight-text {
+  color: var(--primary-color);
+}
+
+.primary-button {
+  padding: 8px 16px;
+  background-color: var(--background-color);
+  border: solid thick;
+  border-color: var(--primary-color);
+}
+
+:root {
+  --primary-color: rgb(199, 120, 221);
+  --secondary-color: #3c3b3b;
+  --background-color: #f9f9f9;
+}
+
+/* INDEX PAGE */
+.avatar {
+  max-width: 450px;
+}
+
+.index-header {
+  margin-top: 100px;
+}
+
+/* SOCIALS BAR */
+.socials-icons {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 1em;
 }
