@@ -10,6 +10,11 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 24px;
+  line-height: 31px;
+}
+
 h3 {
   font-size: 16px;
   line-height: 25px;
@@ -19,12 +24,12 @@ h3 {
   color: var(--primary-color);
 }
 
-.primary-button {
+/* .primary-button {
   padding: 8px 16px;
   background-color: var(--background-color);
-  border: solid thick;
+  border: solid;
   border-color: var(--primary-color);
-}
+} */
 
 :root {
   --primary-color: rgb(199, 120, 221);
@@ -34,16 +39,36 @@ h3 {
 
 /* INDEX PAGE */
 .avatar {
-  max-width: 450px;
+  max-width: 400px;
 }
 
 .index-hero {
   margin-top: 100px;
 }
 
+.view-all {
+  text-align: right;
+}
+
+.card {
+  background-color: var(--background-color);
+}
+
+.launch-links {
+  padding: 10px 16px;
+  background-color: var(--background-color);
+  border: solid;
+  border-color: var(--primary-color);
+}
+
 /* SOCIALS BAR */
 .socials-icons {
   list-style-type: none;
+}
+
+.socials-line {
+  display: block;
+  margin-left: 8px;
 }
 
 li {
