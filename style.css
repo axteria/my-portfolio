@@ -29,6 +29,7 @@ footer h3 {
   font-size: 14px;
   margin: 10px auto;
 }
+
 .highlight-text {
   color: var(--primary-color);
 }
@@ -56,9 +57,8 @@ footer h3 {
   background-color: var(--background-color);
 }
 
-.launch-links {
+.button-links {
   padding: 10px 16px;
-  background-color: var(--background-color);
   border: solid;
   border-color: var(--primary-color);
 }
