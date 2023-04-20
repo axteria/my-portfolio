@@ -1,7 +1,6 @@
 body {
   font-family: "Fira Code", monospace;
   background-color: var(--background-color);
-  margin: 20px;
 }
 
 h1 {
@@ -21,16 +20,18 @@ p {
   line-height: 25px;
 }
 
+footer {
+  padding-top: 14px;
+}
+
+footer h3 {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px auto;
+}
 .highlight-text {
   color: var(--primary-color);
 }
-
-/* .primary-button {
-  padding: 8px 16px;
-  background-color: var(--background-color);
-  border: solid;
-  border-color: var(--primary-color);
-} */
 
 :root {
   --primary-color: rgb(199, 120, 221);
