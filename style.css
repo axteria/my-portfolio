@@ -17,7 +17,8 @@ h2 {
 h3,
 p {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 21px
+px;
 }
 
 footer {
@@ -38,23 +39,6 @@ footer h3 {
   --primary-color: rgb(199, 120, 221);
   --secondary-color: #3c3b3b;
   --background-color: #f9f9f9;
-}
-
-/* INDEX PAGE */
-.avatar {
-  max-width: 400px;
-}
-
-.index-hero {
-  margin-top: 100px;
-}
-
-.view-all {
-  text-align: right;
-}
-
-.card {
-  background-color: var(--background-color);
 }
 
 .button-links {
@@ -93,4 +77,56 @@ li {
     text-align: left;
     margin-bottom: 10px;
   }
+}
+
+/* INDEX PAGE */
+.avatar {
+  max-width: 400px;
+}
+
+.index-hero {
+  margin-top: 100px;
+}
+
+.view-all {
+  text-align: right;
+}
+
+.card {
+  background-color: var(--background-color);
+}
+
+/* ABOUT PAGE */
+
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 16px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.skills-heading {
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 5px;
+  width: 200px;
+  font-weight: 900;
+}
+
+.skills-item {
+  border: 1px solid black;
+  padding: 5px;
+  width: 200px;
+}
+
+.about-img {
+  max-width: 200px;
+}
+
+.fun-fact {
+  display: inline-grid;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 8px;
 }
