@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 31px;
 }
 
@@ -40,14 +40,27 @@ footer h3 {
 
 :root {
   --primary-color: rgb(199, 120, 221);
-  --secondary-color: #3c3b3b;
+  --secondary-color: #3c3b3b93;
   --background-color: #f9f9f9;
 }
 
-.button-links {
+.contact-me-button {
   padding: 10px 16px;
   border: solid;
   border-color: var(--primary-color);
+}
+
+.button-links,
+.secondary-button-links {
+  padding: 5px;
+  border: solid 2px;
+}
+.button-links {
+  border-color: var(--primary-color);
+}
+
+.secondary-button-links {
+  border-color: var(--secondary-color);
 }
 
 /* SOCIALS BAR */
@@ -128,4 +141,33 @@ li {
   border: 1px solid black;
   padding: 5px;
   margin: 8px;
+}
+
+/* CONTACT PAGE */
+.message-me {
+  padding-left: 10%;
+  max-width: 250px;
+  margin-top: 40%;
+}
+
+.media-links a {
+  padding-right: 40px;
+}
+
+.contact-deco {
+  margin-left: -130px;
+  width: 100px;
+}
+
+.contact-deco2 {
+  width: 200px;
+}
+
+.message-form {
+  max-width: 600px;
+}
+
+/* PROJECTS PAGE */
+.completed-apps {
+  margin-top: -80px;
 }
